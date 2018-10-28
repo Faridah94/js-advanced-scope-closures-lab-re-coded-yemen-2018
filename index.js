@@ -8,7 +8,7 @@ function produceDrivingRange(range){
     const sub =  Math.abs(range-DIS);
 
 
-    let difference = differ(range, distance);
+    let difference = sub;
     if(distance <= range){
       return "within range by " + (difference);
     }
