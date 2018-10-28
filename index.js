@@ -3,7 +3,7 @@ function produceDrivingRange(range){
    let block=parseInt(block1)-parseInt(block2);
     const absolute =  Math.abs(block);
 
-    let DIS = absolute(block);
+    let DIS = absolute;
     const differ = function(range,DIS){
       let result = range-DIS;
       if(result < 0){result *= -1;}
