@@ -4,7 +4,7 @@ function produceDrivingRange(range){
     const absolute =  Math.abs(block);
 
 
-    let DIS = absolute(block);
+    let DIS =Math.abs(block);
     const sub =  Math.abs(range-DIS);
 
 
