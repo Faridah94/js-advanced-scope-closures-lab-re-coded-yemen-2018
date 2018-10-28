@@ -1,16 +1,12 @@
 function produceDrivingRange(range){
   return function(block1, block2){
    let block=parseInt(block1)-parseInt(block2);
-
     const absolute =  Math.abs(block);
 
 
     let DIS = absolute(block);
-    const sub = function(range,DIS){
-      let result = range-DIS;
-      if(result < 0){result *= -1;}
-      return result
-    }
+    const sub =  Math.abs( range-DIS);
+    
 
     let difference = differ(range, distance);
     if(distance <= range){
