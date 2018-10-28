@@ -9,7 +9,7 @@ function produceDrivingRange(range){
 
 
     let difference = sub;
-    if(distance <= range){
+    if( DIS  <= range){
       return "within range by " + (difference);
     }
     else
